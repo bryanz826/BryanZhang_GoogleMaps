@@ -10,6 +10,8 @@
         android:layout_height="wrap_content"
         android:background="@android:color/holo_blue_light"
         android:weightSum="1">
+        android:orientation="horizontal">
+
 
         <Button
             android:id="@+id/button_view"
@@ -43,6 +45,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/holo_blue_light"
         android:weightSum="1">
+        android:orientation="horizontal">
 
         <EditText
             android:id="@+id/editText_address"
