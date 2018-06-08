@@ -57,11 +57,20 @@
         <Button
             android:id="@+id/button_search"
             style="?android:attr/buttonStyleSmall"
-            android:layout_width="127dp"
+            android:layout_width="63dp"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:onClick="onSearch"
-            android:text="search" />
+            android:text="srch" />
+
+        <Button
+            android:id="@+id/button_search_front"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:onClick="searchForward"
+            android:text="frwd" />
 
     </LinearLayout>
 
