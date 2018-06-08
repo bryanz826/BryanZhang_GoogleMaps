@@ -113,7 +113,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         String location = locationSearch.getText().toString();
         List<Address> addressList = null;
 
-        //use LocationManager  for uesr location info
+        //use LocationManager  for user location info
         LocationManager service = (LocationManager) getSystemService(LOCATION_SERVICE);
         Criteria criteria = new Criteria();
         String provider = service.getBestProvider(criteria, false);
